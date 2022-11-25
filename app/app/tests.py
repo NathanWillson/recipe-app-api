@@ -14,5 +14,5 @@ class calcTests(SimpleTestCase):
         self.assertEqual(R, 11)
 
     def test_sub(self):
-        S =calc.sub(6, 4)
+        S = calc.sub(6, 4)
         self.assertEqual(S, 2)
